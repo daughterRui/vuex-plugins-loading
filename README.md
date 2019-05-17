@@ -1,11 +1,23 @@
 # vuex-plugins-loading
 你在任何地方都不需要写showLoading 和hideLoading。值得拥有的vuex-plugins-loading。
-## 安装
+## Install
 ```
  npm i vuex-plugins-loading -S
 ```
 
-## 组件中调用
+## Usage
+```
+import createLoadingPlugin from 'vuex-plugins-loading'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+
+  plugins: [createLoadingPlugin()]
+
+})
+```
+
 ```
 ### namespace: home
 
