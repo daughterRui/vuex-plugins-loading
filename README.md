@@ -27,3 +27,5 @@ export default new Vuex.Store({
       loading: state => state['@@loading'].effects['namespace/actions']
     }),
 ```
+## 注意
+> 安装此插件vuex版本必需在3.1.0
