@@ -28,4 +28,4 @@ export default new Vuex.Store({
     }),
 ```
 ## 注意
-> 安装此插件vuex版本必需在3.1.0
+> 安装此插件vuex版本必需 >= 3.1.0
