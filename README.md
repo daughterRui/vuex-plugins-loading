@@ -1,5 +1,7 @@
 # vuex-plugins-loading
 你在任何地方都不需要写showLoading 和hideLoading。值得拥有的vuex-plugins-loading。
+## Description
+  基于dva-loading的思想，改造后的vuex-loading
 ## Install
 ```
  npm i vuex-plugins-loading -S
